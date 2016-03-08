@@ -4,10 +4,13 @@
     "Omri Katz <omrikatz12@gmail.com>"
   ],
   "description": "console log extension",
-  "main": "",
-  "moduleType": [],
+  "main": [
+    "logger/loggerProvider.js",
+    "logger.js"
+  ],
+  "moduleType": ["amd"],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/omridevk/angularjs_logger",
   "private": false,
   "ignore": [
     "**/.*",
